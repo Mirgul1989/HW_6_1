@@ -13,7 +13,8 @@
         android:layout_margin="@dimen/margin_20"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="Autofill,LabelFor,TextFields" />
+        tools:ignore="Autofill,LabelFor,TextFields,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="20dp" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSend"
